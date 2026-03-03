@@ -4,7 +4,10 @@ A list of policies by different open source projects about how to engage with AI
 
 **Feel free to submit Pull Requests with policies you find in other projects!**
 
-For a similar overview with plots and more statistics, check out this excellent article by Kate Holterhoff: [The Generative AI Policy Landscape in Open Source](https://redmonk.com/kholterhoff/2026/02/26/generative-ai-policy-landscape-in-open-source/)
+## Similar projects
+
+- For a similar overview with plots and more statistics, check out this excellent article by Kate Holterhoff: [The Generative AI Policy Landscape in Open Source](https://redmonk.com/kholterhoff/2026/02/26/generative-ai-policy-landscape-in-open-source/)
+- The CHAOSS Working Group on AI Alignment also keeps a list here: https://github.com/chaoss/wg-ai-alignment/tree/main/moderation
 
 ## Policies
 ### Projects accepting AI-assisted contributions
